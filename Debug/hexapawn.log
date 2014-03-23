@@ -1,0 +1,44 @@
+﻿빌드 시작: 2014-03-20 오후 8:43:08
+     1>2 노드의 "c:\Users\jyj\documents\visual studio 2010\Projects\hexapawn\hexapawn\hexapawn.vcxproj" 프로젝트(build 대상)입니다.
+     1>PrepareForBuild:
+         "c:\users\jyj\documents\visual studio 2010\Projects\hexapawn\Debug\" 디렉터리를 만들고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\hexapawn.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt file.cpp GameTree.cpp GameTreeNode.cpp main.cpp Manager.cpp
+         Manager.cpp
+         main.cpp
+         GameTreeNode.cpp
+         GameTree.cpp
+         file.cpp
+     1>c:\users\jyj\documents\visual studio 2010\projects\hexapawn\hexapawn\file.cpp(20): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+         코드를 생성하고 있습니다...
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\hexapawn.exe.embed.manifest.res" Debug\hexapawn_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\jyj\documents\visual studio 2010\Projects\hexapawn\Debug\hexapawn.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\hexapawn.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\jyj\documents\visual studio 2010\Projects\hexapawn\Debug\hexapawn.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\jyj\documents\visual studio 2010\Projects\hexapawn\Debug\hexapawn.lib" /MACHINE:X86 Debug\hexapawn.exe.embed.manifest.res
+         Debug\file.obj
+         Debug\GameTree.obj
+         Debug\GameTreeNode.obj
+         Debug\main.obj
+         Debug\Manager.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\hexapawn.exe.embed.manifest" /manifest Debug\hexapawn.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\hexapawn.exe.embed.manifest.res" Debug\hexapawn_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\jyj\documents\visual studio 2010\Projects\hexapawn\Debug\hexapawn.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\hexapawn.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\jyj\documents\visual studio 2010\Projects\hexapawn\Debug\hexapawn.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\jyj\documents\visual studio 2010\Projects\hexapawn\Debug\hexapawn.lib" /MACHINE:X86 Debug\hexapawn.exe.embed.manifest.res
+         Debug\file.obj
+         Debug\GameTree.obj
+         Debug\GameTreeNode.obj
+         Debug\main.obj
+         Debug\Manager.obj
+         hexapawn.vcxproj -> c:\users\jyj\documents\visual studio 2010\Projects\hexapawn\Debug\hexapawn.exe
+       FinalizeBuildStatus:
+         "Debug\hexapawn.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\hexapawn.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"c:\Users\jyj\documents\visual studio 2010\Projects\hexapawn\hexapawn\hexapawn.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:03.04

@@ -9,7 +9,7 @@ int main()
 	cout<<"Hexapawn"<<endl;//choose game mode
 	cout<<"1. console game"<<endl;//interactive mode
 	cout<<"2. file game"<<endl;//batch mode
-	cout<<"choose:";
+	cout<<"choose:";//good 
 	cin>>i;
 	if(i==1)
 	{
